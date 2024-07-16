@@ -1,0 +1,5 @@
+regolith-sway-touchpad-gestures (0.1.0) noble; urgency=medium
+
+  * Initial release, extracted from regolith-wm-config
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 16 Jul 2024 07:20:28 -0700

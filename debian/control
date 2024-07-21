@@ -10,4 +10,7 @@ Package: regolith-sway-touchpad-gestures
 Architecture: any
 Depends: ${misc:Depends},
   regolith-wm-config
+Conflicts: regolith-sway-touchpad-guestures
+Replaces: regolith-sway-touchpad-guestures
+Breaks: regolith-sway-touchpad-guestures
 Description: Configurations to enable touchpad gestures

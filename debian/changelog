@@ -1,3 +1,14 @@
+regolith-sway-touchpad-gestures (0.1.0-3) noble; urgency=medium
+
+  [ Khosrow Moossavi ]
+  * feat: enable github action to test pull requests
+  * feat: enable github action to publish to unstable
+  * feat: enable github action to publish to testing
+  * feat: enable github action to prepare release
+  * fix: create release tag from correct git sha
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 04 Feb 2025 03:09:36 +0000
+
 regolith-sway-touchpad-gestures (0.1.0-2) noble; urgency=medium
 
   * fix: require deprecated package to be removed before replacing

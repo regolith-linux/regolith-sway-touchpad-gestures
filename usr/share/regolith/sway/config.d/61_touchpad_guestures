@@ -11,11 +11,11 @@ set_from_resource $wm.guesture.swipe.three_left wm.guesture.swipe.three_left wor
 bindgesture --exact swipe:3:left $wm.guesture.swipe.three_left
 
 # Three finger swipe up
-set_from_resource $wm.guesture.swipe.three_up wm.guesture.swipe.three_up exec ilia -p windows
+set_from_resource $wm.guesture.swipe.three_up wm.guesture.swipe.three_up exec ilia -p windows -t $ilia.stylesheet
 bindgesture --exact swipe:3:up $wm.guesture.swipe.three_up
 
 # Three finger swipe down
-set_from_resource $wm.guesture.swipe.three_down wm.guesture.swipe.three_down exec ilia -p apps
+set_from_resource $wm.guesture.swipe.three_down wm.guesture.swipe.three_down exec ilia -p apps -t $ilia.stylesheet
 bindgesture --exact swipe:3:down $wm.guesture.swipe.three_down
 
 
